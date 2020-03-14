@@ -2,9 +2,10 @@
   text-decoration: overline;
   padding: 32px;
   text-align: right;
-  font-weight: 500;
+  font-weight: 200;
   color: #30475e;
   font-size: 18px;
+  font-family: "Montserrat";
 }
 
 
@@ -25,6 +26,10 @@
   height: 100%;
   width: 120px;
   object-fit: cover;
+  &:hover{
+      background: #142850;
+      opacity: .9;
+    }
 }
 
 .card-photographe h2 {
@@ -47,6 +52,7 @@
   opacity: .7;
   margin-bottom: 0;
   margin-top: 8px;
+  font-weight: medium;
 }
 
 .card-photographe .card-photographe-infos {

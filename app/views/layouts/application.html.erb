@@ -8,6 +8,14 @@
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
     <%#= stylesheet_pack_tag 'application', media: 'all' %> <!-- Uncomment if you import CSS in app/javascript/packs/application.js -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-105300836-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-105300836-5');
+    </script>
   </head>
   <body>
     <%= render 'shared/navbar' %>
@@ -15,5 +23,6 @@
     <%= yield %>
 
     <%= javascript_pack_tag 'application' %>
+
   </body>
 </html>
