@@ -1,0 +1,2 @@
+class Photographe < ApplicationRecord
+end
