@@ -9,11 +9,12 @@
     "bootstrap": "^4.4.1",
     "jquery": "^3.4.1",
     "popper.js": "^1.16.1",
-    "turbolinks": "^5.2.0"
+    "turbolinks": "^5.2.0",
+    "webpack-dev-middleware": "^3.7.2"
   },
   "version": "0.1.0",
   "devDependencies": {
-    "webpack": "^5.0.0-beta.14",
+    "webpack": "^5.0.0-beta.13",
     "webpack-dev-server": "^3.10.3"
   }
 }
